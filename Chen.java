@@ -18,7 +18,7 @@ public class Chen
 			default:System.out.println("data error!!!");break;
 		}
 		String str = s.next();
-        System.out.print(str);
+       		System.out.print(str);
 		int i,sum = 0;
 		for (i = 1;i <= 100;i += 2)
 		    sum+=i;
@@ -32,7 +32,7 @@ public class Chen
 	    {
 		    for (j = 1;j <= i;j++)		
 		        System.out.print(i + "*" + j + "=" + (i*j) + "  ");
-        System.out.print("\n");//==System.out.println(); 
+        	System.out.print("\n");//==System.out.println(); 
 		}
 		}
 		//判断素数 1
@@ -83,7 +83,7 @@ public class Chen
         int a,b,c;
 		System.out.print("please input a:");
 		a = s.nextInt();
-        System.out.print("please input b:");
+        	System.out.print("please input b:");
 		b = s.nextInt();
 		c = Chen.calint(a,b//实参);//调用形式；调用某个类的方法
 		System.out.println("result = " + c);
